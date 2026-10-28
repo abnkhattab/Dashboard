@@ -1,16 +1,17 @@
-# React + Vite
+# BeautyMatrix Dashboard 💄✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive e-commerce dashboard for managing beauty and retail products, built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 📊 **Dynamic Stats Cards**: Overview of earnings, total products, and metrics.
+- 📦 **Products Management**: Table displaying real-time products fetched via Axios from DummyJSON.
+- ⚡ **Interactive Actions**: Inline editing and real-time deletion logic.
+- 📄 **Pagination**: Custom pagination for clean and responsive data browsing.
+- 🎨 **Clean UI/UX**: Sleek dark aesthetic with responsive layouts and hover effects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **Framework:** React (Vite)
+- **Styling:** Tailwind CSS
+- **HTTP Client:** Axios
+- **Icons:** FontAwesome
+- **Data Source:** DummyJSON API
