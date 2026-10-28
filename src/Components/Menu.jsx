@@ -5,7 +5,7 @@ import Images from '../assets/imgs/dashboard-prof.jpg'
 const Menu = () => {
     const [isOpen,setIsOpen] = useState(true);
     return (
-        <div className={`hidden bg-gradient-to-t from-main to-secondary min-h-[100vh] overflow-y-auto overflow-x-hidden transition-all duration-300 shrink-0 ${isOpen ? 'w-64' : 'w-20'}`}>
+        <div className={` bg-gradient-to-t from-main to-secondary min-h-[100vh] overflow-y-auto overflow-x-hidden transition-all duration-300 shrink-0 ${isOpen ? 'w-64' : 'w-20'}`}>
             <div>
                 <button onClick={() => setIsOpen(!isOpen)} className='cursor-pointer focus:outline-none text-white text-4xl text-center m-auto w-full my-6'><i className='fa-solid fa-bars'></i></button>
             </div>
