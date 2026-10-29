@@ -7,9 +7,9 @@ const Content = () => {
                 <i className="fa-solid fa-bars text-xl cursor-pointer text-white"></i>
             </div>
             {/* Catch for cards */}
-            <div className="flex items-center justify-around flex-wrap gap-6 lg:gap-0.5">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
                 {/* card */}
-                <div className="w-full rounded-lg py-4 min-w-[200px] bg-gradient-to-t from-main to-secondary p-2 shadow-lg md:w-1/6 rounded-sm">
+                <div className=" rounded-lg py-4  bg-gradient-to-t from-main to-secondary p-2 shadow-lg rounded-sm">
                     <div className="flex items-center justify-between ">
                         <p className="text-white text-md">Earning</p>
                         <div className=" bg-white w-4 h-4 text-center rounded-full flex items-center justify-center">
@@ -17,11 +17,11 @@ const Content = () => {
                         </div>
                     </div>
                     <div className="flex items-center justify-center text-center">
-                        <h3 className="text-white text-4xl py-3 my-2">$ 628</h3>
+                        <h3 className="text-white text-2xl sm:text-3xl p-2 py-3 my-2">$ 628</h3>
                     </div>
                 </div>
                 {/* card */}
-                <div className="w-full rounded-lg py-4 min-w-[200px] bg-white p-2 shadow-xl md:w-1/6 rounded-sm">
+                <div className=" rounded-lg py-4  bg-white p-2 shadow-xl rounded-sm">
                     <div className="flex items-center justify-between ">
                         <p className="text-main text-md">Share</p>
                         <div className=" bg-white w-4 h-4 text-center rounded-full flex items-center justify-center">
@@ -29,11 +29,11 @@ const Content = () => {
                         </div>
                     </div>
                     <div className="flex items-center justify-center text-center">
-                        <h3 className="text-main text-4xl py-3 my-2">3698</h3>
+                        <h3 className="text-main text-2xl sm:text-3xl p-2 py-3 my-2">3698</h3>
                     </div>
                 </div>
                 {/* card */}
-                <div className="w-full rounded-lg py-4 min-w-[200px] bg-white p-2 shadow-xl md:w-1/6 rounded-sm">
+                <div className=" rounded-lg py-4  bg-white p-2 shadow-xl rounded-sm">
                     <div className="flex items-center justify-between ">
                         <p className="text-main text-md">Likes</p>
                         <div className=" bg-white w-4 h-4 text-center rounded-full flex items-center justify-center">
@@ -41,11 +41,11 @@ const Content = () => {
                         </div>
                     </div>
                     <div className="flex items-center justify-center text-center">
-                        <h3 className="text-main text-4xl py-3 my-2">12365</h3>
+                        <h3 className="text-main text-2xl sm:text-3xl p-2 py-3 my-2">12365</h3>
                     </div>
                 </div>
                 {/* card */}
-                <div className="w-full rounded-lg py-4 min-w-[200px] bg-white p-2 shadow-xl md:w-1/6 rounded-sm">
+                <div className=" rounded-lg py-4  bg-white p-2 shadow-xl rounded-sm">
                     <div className="flex items-center justify-between ">
                         <p className="text-main text-md">Rating</p>
                         <div className=" bg-white w-4 h-4 text-center rounded-full flex items-center justify-center">
@@ -53,7 +53,7 @@ const Content = () => {
                         </div>
                     </div>
                     <div className="flex items-center justify-center text-center">
-                        <h3 className="text-main text-4xl py-3 my-2">8.5</h3>
+                        <h3 className="text-main text-2xl sm:text-3xl p-2 py-3 my-2">8.5</h3>
                     </div>
                 </div>
             </div>
