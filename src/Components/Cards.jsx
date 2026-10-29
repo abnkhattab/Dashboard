@@ -1,11 +1,25 @@
+import { useState } from "react";
+import Images from '../assets/imgs/dashboard-prof.jpg'
 
 const Content = () => {
+    const [isOpen,setIsOpen] = useState(false);
     return (
         <div className="flex flex-col gap-4 ">
             <div className="flex justify-between items-center w-full px-4">
                 <h2 className="text-xl font-bold text-white">Dashboard User</h2>
-                <i className="fa-solid fa-bars text-xl cursor-pointer text-white"></i>
+                <button onClick={() => setIsOpen(!isOpen)}><i className="fa-solid fa-bars text-xl cursor-pointer text-white"></i></button>
             </div>
+            {isOpen && (
+                <div className='flex flex-col gap-4 items-center my-8'>
+                    <div className='rounded-full overflow-hidden w-24 border-4 border-main'>
+                        <img src={Images} alt="" className='w-full'/>
+                    </div>
+                    <div className='text-white text-center'>
+                        <h2 className='font-bold uppercase text-2xl my-2'>Beauty Matrix</h2>
+                        <p className='text-[#777] text-md'>beautymatrix@gmail.com</p>
+                    </div>
+                </div>
+            )}
             {/* Catch for cards */}
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
                 {/* card */}
